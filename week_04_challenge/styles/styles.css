@@ -1,0 +1,51 @@
+body {
+    background-color: pink;
+}
+header {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header:hover {
+    color: black;
+}
+#education-quote {
+    color: white;
+    text-align: center;
+    width: 45%;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+div {
+    text-align: center;
+}
+ol {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+    line-height: 30px;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+#atonement-quote {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    line-height: 5px;
+    /* width: 30%; */
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 1em;
+}
