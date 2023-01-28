@@ -4,8 +4,14 @@
 }
 nav a {
     text-align: center;
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color: #9fffcb;
     text-decoration: none;
+}
+nav a:hover {
+    background-color: aqua;
+    /* color: black; */
+    color: #05076f;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -27,11 +33,8 @@ body {
 }
 header {
     /* background-color: rgba(0, 46, 30, 0.75); */
-    background-color: #0769caec;
-}
-nav a:hover {
-    background-color: aqua;
-    color: black;
+    /* background-color: #0769caec; */
+    background-color: #044990;
 }
 .book, .join {
     background-color: #004561;
@@ -39,7 +42,7 @@ nav a:hover {
     text-decoration: none;
 }
 .book:hover, .join:hover {
-    color: black;
+    color: #9fffcb;
 }
 .msg {
     background-color: #004561c2;
