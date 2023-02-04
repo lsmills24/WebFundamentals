@@ -67,15 +67,18 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }
-footer p a:hover {
+/* footer p a:hover {
     text-decoration: underline;
-}
+} */
 .home-title {
     color: rgb(0, 100, 100);
 }
 h4 {
     /* color: rgb(0, 170, 170); */
     color: #044990;
+}
+.logo {
+    width: 80px;
 }
 .icon {
     width: 80px;
