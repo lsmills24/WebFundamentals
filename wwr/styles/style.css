@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Patrick+Hand&family=Roboto&family=Shadows+Into+Light&family=Sofia+Sans&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a {
     /* color: whitesmoke; */
     color: #9fffcb;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: aqua;
@@ -22,6 +26,9 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     /* background-color: #004561; */
@@ -30,32 +37,62 @@ main section {
 }
 body {
     background-color: azure;
+    font-family: "Sofia Sans", "Lucida Bright", "Century Gothic", "Times New Roman", serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     /* background-color: rgba(0, 46, 30, 0.75); */
     /* background-color: #0769caec; */
     background-color: #044990;
 }
+.home-title {
+    color: rgb(0, 100, 100);
+    font-family: "Shadows Into Light", "Patrick Hand", "Arial Black", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.card-img {
+    border: 10px solid #004561c2;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 .book, .join {
     background-color: #004561;
     color: whitesmoke;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     color: #9fffcb;
 }
+h2 {
+    margin: 0;
+}
 .msg {
     background-color: #004561c2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: whitesmoke;
 }
 .msg p {
     color: white;
+    font-family: "Sofia Sans", Verdana, Arial;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #004561;
     color: whitesmoke;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: aliceblue;
@@ -67,21 +104,26 @@ footer a:hover {
 footer p {
     font-size: 1.2em;
 }
+footer .social img {
+    padding-top: 15px;
+}
 /* footer p a:hover {
     text-decoration: underline;
 } */
-.home-title {
-    color: rgb(0, 100, 100);
-}
 h4 {
     /* color: rgb(0, 170, 170); */
     color: #044990;
-}
+    font-family: "Roboto", 'Segoe UI', Tahoma, Verdana, sans-serif;
+}    
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
