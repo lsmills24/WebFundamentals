@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Nunito&family=Patrick+Hand&family=Patrick+Hand+SC&family=Roboto&family=Shadows+Into+Light&display=swap" rel="stylesheet"');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Header Grid */
+.header_img {
+    background-image: url(strat_closeup_header.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    position: relative;
+    background-attachment: fixed;
+}
+.header_nav {
+    z-index: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(30, 30, 30, 0.5);
+    margin-bottom: 50px;
+    transform: translate(0px, 393px);
+    border-bottom: 2px solid #7B4D21;
+}
+#millsbros_title {
+    text-decoration: none;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 3em;
+    color: whitesmoke;
+    text-shadow: -2px -2px 0 #000000;
+    -webkit-text-stroke: 1px #000000;
+    font-family: 'Kalam', 'Nunito', 'Roboto', 'Times New Roman';
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    grid-column: 2/3;
+    text-decoration: none;
+    font-size: 2em;
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 #000000;
+    font-family: 'Patrick Hand', 'Roboto', 'Times New Roman';
+}
+nav a:hover {
+    color: #5BD866;
+}
+
+body {
+    color: whitesmoke;
+    background-color: white;
+    font-family: 'Nunito', 'Lato', Arial;
+    font-size:  22px;
+    margin: 0;
+    padding: 0;
+}
+/* End Header */
+
+.home-title {
+    color: #2A4D14;
+    font-family: "IM Fell French Canon SC", "Patrick Hand", "Arial Black", sans-serif;
+    font-size: 3em;
+    text-shadow: -1px 0px 0 #000;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.background {
+    background-color: rgb(202, 202, 202);
+    max-width: 80%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Home Grid & Children */
+.guitarist-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+}
+.guitarist_young {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #000;
+}
+.guitarist_old {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #000;
+
+}
+.msg {
+    color: #2A4D14;
+    margin: 0 auto;
+    max-width: 80%;
+    line-height: 1.5em;
+    padding: 15px;
+}
+.band_img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #000;
+}
+.contact {
+    margin-top: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #7B4D21;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.contact:hover {
+    background-color: #633d1a;
+    color: #5BD866;
+}
+
+
+/* Footer */
+footer {
+    background-color: #2A4D14;
+    color: whitesmoke;
+    padding: 0px 5px;
+    /* margin-top: 200px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #7B4D21;
+}
+footer a {
+    color: #ADEBFF;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #5BD866;
+}
+footer p {
+    font-size: 1.25em;
+    font-family: 'Nunito', 'IM Fell French Canon SC', Arial;
+}
+footer .social img {
+    padding-top: 10px;
+    width: 55px;
+    margin: 5px;
+}
+.logo {
+    width: 125px;
+}
+#logo_link {
+    padding-top: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+/* Media Query - Mobile Screens */
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
