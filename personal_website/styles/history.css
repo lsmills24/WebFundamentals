@@ -35,7 +35,7 @@
     font-size: 3em;
     color: whitesmoke;
     text-shadow: -2px -2px 0 #000000;
-    -webkit-text-stroke: 1px #000000;
+    /* -webkit-text-stroke: 1px #000000; */
     font-family: 'Kalam', 'Nunito', 'Roboto', 'Times New Roman';
 }
 nav {
